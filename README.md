@@ -12,9 +12,9 @@
 
 예: //;\n1;2;3의 경우 구분자는 ;이며, 결과는 6이다.
 
-[] 입력 문자열에 음수가 포함된 경우 IllegalArgumentException 예외와 함께 메시지 "음수는 입력할 수 없습니다."를 발생시킨다.
+[] 입력 문자열에 음수가 포함된 경우 IllegalArgumentException 예외를 발생시킨다.
 
-[] 입력 문자열에 문제가 있을 경우 IllegalArgumentException 예외와 함께 메시지 "입력값에 문제가 있습니다."를 발생시킨다.
+[] 입력 문자열에 문제가 있을 경우 IllegalArgumentException 예외를 발생시킨다.
 
 예: 1[3의 경우 [는 구분자가 아니므로 계산이 불가
 
